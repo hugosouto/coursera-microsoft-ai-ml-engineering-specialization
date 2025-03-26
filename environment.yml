@@ -1,0 +1,32 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - requests
+  - beautifulsoup4
+  # - scikit-learn
+  # - xgboost
+  # - lightgbm
+  # - nltk
+  # - spacy
+  # - transformers
+  # - pytorch
+  # - torchvision
+  # - torchaudio
+  # - pytorch-cuda=11.8  # se você tiver GPU com CUDA
+  # - cudatoolkit=11.8   # apenas se usar CUDA
+  - pip:
+      # - datasets
+      # - accelerate
+      # - evaluate
+      # - gradio
+      # - scikit-optimize
+      # - mlflow
